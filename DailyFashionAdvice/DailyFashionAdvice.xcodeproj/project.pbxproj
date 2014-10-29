@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA6C7791A007F0000A08734 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA6C7781A007F0000A08734 /* main.m */; };
+		FAA6C77C1A007F0000A08734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA6C77B1A007F0000A08734 /* AppDelegate.m */; };
+		FAA6C77F1A007F0000A08734 /* DailyFashionAdvice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA6C77D1A007F0000A08734 /* DailyFashionAdvice.xcdatamodeld */; };
+		FAA6C7821A007F0000A08734 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA6C7811A007F0000A08734 /* MasterViewController.m */; };
+		FAA6C7851A007F0000A08734 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA6C7841A007F0000A08734 /* DetailViewController.m */; };
+		FAA6C7881A007F0000A08734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA6C7861A007F0000A08734 /* Main.storyboard */; };
+		FAA6C78A1A007F0000A08734 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA6C7891A007F0000A08734 /* Images.xcassets */; };
+		FAA6C78D1A007F0000A08734 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA6C78B1A007F0000A08734 /* LaunchScreen.xib */; };
+		FAA6C7991A007F0000A08734 /* DailyFashionAdviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA6C7981A007F0000A08734 /* DailyFashionAdviceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA6C7931A007F0000A08734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA6C76B1A007F0000A08734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA6C7721A007F0000A08734;
+			remoteInfo = DailyFashionAdvice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA6C7731A007F0000A08734 /* DailyFashionAdvice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyFashionAdvice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA6C7771A007F0000A08734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA6C7781A007F0000A08734 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA6C77A1A007F0000A08734 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA6C77B1A007F0000A08734 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA6C77E1A007F0000A08734 /* DailyFashionAdvice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyFashionAdvice.xcdatamodel; sourceTree = "<group>"; };
+		FAA6C7801A007F0000A08734 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		FAA6C7811A007F0000A08734 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		FAA6C7831A007F0000A08734 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FAA6C7841A007F0000A08734 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FAA6C7871A007F0000A08734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA6C7891A007F0000A08734 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAA6C78C1A007F0000A08734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAA6C7921A007F0000A08734 /* DailyFashionAdviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyFashionAdviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA6C7971A007F0000A08734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA6C7981A007F0000A08734 /* DailyFashionAdviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyFashionAdviceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA6C7701A007F0000A08734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA6C78F1A007F0000A08734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA6C76A1A007F0000A08734 = {
+			isa = PBXGroup;
+			children = (
+				FAA6C7751A007F0000A08734 /* DailyFashionAdvice */,
+				FAA6C7951A007F0000A08734 /* DailyFashionAdviceTests */,
+				FAA6C7741A007F0000A08734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA6C7741A007F0000A08734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6C7731A007F0000A08734 /* DailyFashionAdvice.app */,
+				FAA6C7921A007F0000A08734 /* DailyFashionAdviceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA6C7751A007F0000A08734 /* DailyFashionAdvice */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6C77A1A007F0000A08734 /* AppDelegate.h */,
+				FAA6C77B1A007F0000A08734 /* AppDelegate.m */,
+				FAA6C7801A007F0000A08734 /* MasterViewController.h */,
+				FAA6C7811A007F0000A08734 /* MasterViewController.m */,
+				FAA6C7831A007F0000A08734 /* DetailViewController.h */,
+				FAA6C7841A007F0000A08734 /* DetailViewController.m */,
+				FAA6C7861A007F0000A08734 /* Main.storyboard */,
+				FAA6C7891A007F0000A08734 /* Images.xcassets */,
+				FAA6C78B1A007F0000A08734 /* LaunchScreen.xib */,
+				FAA6C77D1A007F0000A08734 /* DailyFashionAdvice.xcdatamodeld */,
+				FAA6C7761A007F0000A08734 /* Supporting Files */,
+			);
+			path = DailyFashionAdvice;
+			sourceTree = "<group>";
+		};
+		FAA6C7761A007F0000A08734 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6C7771A007F0000A08734 /* Info.plist */,
+				FAA6C7781A007F0000A08734 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA6C7951A007F0000A08734 /* DailyFashionAdviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6C7981A007F0000A08734 /* DailyFashionAdviceTests.m */,
+				FAA6C7961A007F0000A08734 /* Supporting Files */,
+			);
+			path = DailyFashionAdviceTests;
+			sourceTree = "<group>";
+		};
+		FAA6C7961A007F0000A08734 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6C7971A007F0000A08734 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA6C7721A007F0000A08734 /* DailyFashionAdvice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA6C79C1A007F0000A08734 /* Build configuration list for PBXNativeTarget "DailyFashionAdvice" */;
+			buildPhases = (
+				FAA6C76F1A007F0000A08734 /* Sources */,
+				FAA6C7701A007F0000A08734 /* Frameworks */,
+				FAA6C7711A007F0000A08734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyFashionAdvice;
+			productName = DailyFashionAdvice;
+			productReference = FAA6C7731A007F0000A08734 /* DailyFashionAdvice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA6C7911A007F0000A08734 /* DailyFashionAdviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA6C79F1A007F0000A08734 /* Build configuration list for PBXNativeTarget "DailyFashionAdviceTests" */;
+			buildPhases = (
+				FAA6C78E1A007F0000A08734 /* Sources */,
+				FAA6C78F1A007F0000A08734 /* Frameworks */,
+				FAA6C7901A007F0000A08734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA6C7941A007F0000A08734 /* PBXTargetDependency */,
+			);
+			name = DailyFashionAdviceTests;
+			productName = DailyFashionAdviceTests;
+			productReference = FAA6C7921A007F0000A08734 /* DailyFashionAdviceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA6C76B1A007F0000A08734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Michael J. Eilers Smith";
+				TargetAttributes = {
+					FAA6C7721A007F0000A08734 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FAA6C7911A007F0000A08734 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FAA6C7721A007F0000A08734;
+					};
+				};
+			};
+			buildConfigurationList = FAA6C76E1A007F0000A08734 /* Build configuration list for PBXProject "DailyFashionAdvice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA6C76A1A007F0000A08734;
+			productRefGroup = FAA6C7741A007F0000A08734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA6C7721A007F0000A08734 /* DailyFashionAdvice */,
+				FAA6C7911A007F0000A08734 /* DailyFashionAdviceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA6C7711A007F0000A08734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA6C7881A007F0000A08734 /* Main.storyboard in Resources */,
+				FAA6C78D1A007F0000A08734 /* LaunchScreen.xib in Resources */,
+				FAA6C78A1A007F0000A08734 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA6C7901A007F0000A08734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA6C76F1A007F0000A08734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA6C7851A007F0000A08734 /* DetailViewController.m in Sources */,
+				FAA6C7821A007F0000A08734 /* MasterViewController.m in Sources */,
+				FAA6C77F1A007F0000A08734 /* DailyFashionAdvice.xcdatamodeld in Sources */,
+				FAA6C77C1A007F0000A08734 /* AppDelegate.m in Sources */,
+				FAA6C7791A007F0000A08734 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA6C78E1A007F0000A08734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA6C7991A007F0000A08734 /* DailyFashionAdviceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA6C7941A007F0000A08734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA6C7721A007F0000A08734 /* DailyFashionAdvice */;
+			targetProxy = FAA6C7931A007F0000A08734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA6C7861A007F0000A08734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA6C7871A007F0000A08734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA6C78B1A007F0000A08734 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA6C78C1A007F0000A08734 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA6C79A1A007F0000A08734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA6C79B1A007F0000A08734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA6C79D1A007F0000A08734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DailyFashionAdvice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA6C79E1A007F0000A08734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DailyFashionAdvice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA6C7A01A007F0000A08734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DailyFashionAdviceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyFashionAdvice.app/DailyFashionAdvice";
+			};
+			name = Debug;
+		};
+		FAA6C7A11A007F0000A08734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DailyFashionAdviceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyFashionAdvice.app/DailyFashionAdvice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA6C76E1A007F0000A08734 /* Build configuration list for PBXProject "DailyFashionAdvice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA6C79A1A007F0000A08734 /* Debug */,
+				FAA6C79B1A007F0000A08734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA6C79C1A007F0000A08734 /* Build configuration list for PBXNativeTarget "DailyFashionAdvice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA6C79D1A007F0000A08734 /* Debug */,
+				FAA6C79E1A007F0000A08734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA6C79F1A007F0000A08734 /* Build configuration list for PBXNativeTarget "DailyFashionAdviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA6C7A01A007F0000A08734 /* Debug */,
+				FAA6C7A11A007F0000A08734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA6C77D1A007F0000A08734 /* DailyFashionAdvice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA6C77E1A007F0000A08734 /* DailyFashionAdvice.xcdatamodel */,
+			);
+			currentVersion = FAA6C77E1A007F0000A08734 /* DailyFashionAdvice.xcdatamodel */;
+			path = DailyFashionAdvice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA6C76B1A007F0000A08734 /* Project object */;
+}
